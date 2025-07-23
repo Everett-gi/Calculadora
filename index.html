@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <!-- Adicionando o link para o Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body> 
+    <div class="container">
+
+        <div class="calculator">
+            <!-- Título da Calculadora -->
+            <div class="calculator-title">Calculadora</div>
+
+            <form>
+                <!-- Campo de resultados ocupa o espaço todo -->
+                <div class="display">
+                    <input type="text" name="display" id="display" readonly="">
+                </div>
+                <div>
+                    <input type="button" value="AC " onclick="clearDisplay()">
+                    <input type="button" value="√" onclick="appendToDisplay('√')">
+                    <input type="button" value="." onclick="appendToDisplay('.')">
+                    <input type="button" value="/" onclick="appendToDisplay('/')">
+                </div>
+                <div>
+                    <input type="button" value="7 " onclick="appendToDisplay('7')">
+                    <input type="button" value="8" onclick="appendToDisplay('8')">
+                    <input type="button" value="9" onclick="appendToDisplay('9')">
+                    <input type="button" value="*" onclick="appendToDisplay('*')">
+                </div>
+                <div>
+                    <input type="button" value="4 " onclick="appendToDisplay('4')">
+                    <input type="button" value="5" onclick="appendToDisplay('5')">
+                    <input type="button" value="6" onclick="appendToDisplay('6')">
+                    <input type="button" value="- " onclick="appendToDisplay('-')">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="appendToDisplay('1')">
+                    <input type="button" value="2" onclick="appendToDisplay('2')">
+                    <input type="button" value="3" onclick="appendToDisplay('3')">
+                    <input type="button" value="+ " onclick="appendToDisplay('+')">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="appendToDisplay('00')">
+                    <input type="button" value="0" onclick="appendToDisplay('0')">
+                    <input type="button" value="=" onclick="evaluateExpression()" class="erfan">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
