@@ -1,7 +1,7 @@
-# 📋 README - Calculadora (Estilizada ainda sem as funcionalidades)
+#Calculadora (Estilizada ainda sem as funcionalidades)
 
 ## 🌟 Visão Geral
-Projeto de calculadora completa com HTML e CSS moderno. A versão atual inclui:
+Projeto de calculadora em desenvolvimento com HTML e CSS moderno. A versão atual inclui:
 - Estrutura HTML semântica
 - Estilização CSS avançada
 - Design responsivo e intuitivo
