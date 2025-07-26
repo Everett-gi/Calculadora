@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('fundo.jpg'); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Necessário para posicionar o ícone em relação ao container */
+}
+
+.calculator {
+    background: #141313; /* Azul forte sem opacidade */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o conteúdo dentro da calculadora */
+    position: relative; /* Para posicionar o link no canto superior direito */
+}
+
+.calculator-title {
+    background-color: #3a3d3d; /* Cor de fundo azul escuro para o título */
+    color: #000000; /* Cor da fonte branca */
+    font-size: 36px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Adiciona negrito */
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e legível */
+    padding: 10px 0;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    margin-top: 40px; /* Margem superior para descer o título */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.display {
+    width: 100%; /* A largura ocupa todo o espaço disponível */
+    height: 80px; /* Tamanho adequado para o display */
+    background-color: #292626; /* Azul mais forte para o display */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento abaixo da faixa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display input {
+    width: 100%; /* Ocupa toda a largura da área de resultados */
+    height: 100%; /* Ocupa toda a altura */
+    text-align: right;
+    font-size: 40px;
+    border: none;
+    background: transparent;
+    color: #fff; /* Cor do texto em branco */
+    padding-right: 10px;
+    caret-color: transparent; /* Remove o cursor de inserção */
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+}
+
+form.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    width: 300px;
+    background: transparent;
+    color: #fff;
+    caret-color: transparent;
+}
+
+form input.erfan {
+    width: 145px;
+}
