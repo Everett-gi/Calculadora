@@ -1,47 +1,57 @@
-#Calculadora (Estilizada ainda sem as funcionalidades)
+# 📋Calculadora Completa (HTML, CSS e JavaScript)
 
 ## 🌟 Visão Geral
-Projeto de calculadora em desenvolvimento com HTML e CSS moderno. A versão atual inclui:
-- Estrutura HTML semântica
-- Estilização CSS avançada
-- Design responsivo e intuitivo
+Calculadora completa com:
+- Operações matemáticas básicas e avançadas
+- Design responsivo e moderno
+- Controle por teclado e mouse
+- Tratamento de erros robusto
 
-## 🎨 Design & Estilização
-### Recursos Implementados:
-- **Fundo dinâmico** com imagem (`fundo.jpg`)
-- **Tema escuro moderno** com tons de azul e preto
-- **Efeitos visuais**:
-  - Sombras (`box-shadow`)
-  - Bordas arredondadas
-  - Efeitos de profundidade
-- **Tipografia**:
-  - Fonte Roboto (moderna e legível)
-  - Tamanhos hierárquicos (título 36px, display 40px)
-- **Layout Flexbox** para centralização perfeita
+## 🎨 Recursos Implementados
 
-### Elementos Estilizados:
-- Container principal com imagem de fundo
-- Calculadora com background #141313
-- Display com:
-  - Fundo #292626
-  - Texto branco alinhado à direita
-  - Sem cursor de inserção
-- Botões:
-  - Tamanho 60x60px
-  - Efeitos de sombra
-  - Espaçamento uniforme
-  - Botão especial (.erfan) com 145px de largura
+### 🔢 Funcionalidades
+- **Operações básicas**: adição (+), subtração (-), multiplicação (*), divisão (/)
+- **Raiz quadrada** (√) com precisão de 5 casas decimais
+- **Sistema de limpeza** (AC)
+- **Cálculo automático** (=)
+- **Suporte a teclado** (0-9, operadores, Enter, Backspace, Escape)
 
+### 💻 Tecnologias Utilizadas
+- **HTML5** (estrutura semântica)
+- **CSS3** (design moderno com Flexbox)
+- **JavaScript** (lógica completa da calculadora)
 
-## 🛑 Observações Técnicas
-- O CSS utiliza:
-  - `box-sizing: border-box` para dimensionamento preciso
-  - `caret-color: transparent` para remover cursor do input
-  - `flexbox` para centralização vertical/horizontal
-- O design segue princípios de:
-  - Contraste adequado (texto branco em fundos escuros)
-  - Espaçamento consistente (margens de 10px/20px)
-  - Hierarquia visual clara
+## 🖥️ Como Usar
+1. **Pelo navegador**:
+   - Abra o arquivo `index.html`
+   - Use o mouse ou teclado para operar
+
+2. **Controles do teclado**:
+   - Números: 0-9
+   - Operadores: +, -, *, /
+   - Enter ou =: Calcular
+   - Backspace ou Escape: Limpar
+
+## 🛠️ Tratamento de Erros
+- Exibe "Erro" para:
+  - Expressões inválidas
+  - Raiz quadrada de valores não numéricos
+  - Operações matemáticas impossíveis
+
+## 📂 Estrutura do Projeto
+```
+calculadora/
+├── index.html      # Estrutura principal
+├── style.css       # Estilos completos
+├── script.js       # Lógica da calculadora
+└── fundo.jpg       # Imagem de background
+```
+
+## 📌 Melhorias Futuras
+- [ ] Adicionar histórico de cálculos
+- [ ] Implementar modo científico (potências, logaritmos)
+- [ ] Criar tema claro/escuro alternável
+- [ ] Adicionar animações nos botões
 
 ## 📄 Licença
 Este projeto está sob a licença MIT.
